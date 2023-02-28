@@ -14,7 +14,3 @@
 # Save Tweets to a CSV file.
 !twarc2 search "(\"the adam friedland show\")" --archive > tafs_tweets.csv
 
-# Save to Google
-from google.colab import drive
-drive.mount('/content/drive')
-
