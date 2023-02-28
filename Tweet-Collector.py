@@ -1,8 +1,13 @@
-# Install and Configure Twarc
+# Tweet Collector
+# Using the twarc package and Twitter API
 
+# Install and configure twarc package
 !pip install twarc
 !pip install plotly
 
+# Run this command by itself using your Twitter API Developer ID.
+# To apply for a Twitter Developer ID, go here: 
+# https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api  
 !twarc2 configure
 # Happy twarcing!
 
